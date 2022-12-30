@@ -345,7 +345,8 @@ img {
 }
 
 .section-customers {
-    padding: 130px 156px 120px;
+    padding-top: 130px;
+    padding-bottom: 120px;
 }
 
 .list-customers {
@@ -374,6 +375,10 @@ img {
 .links-customers:hover,
 .links-customers:focus {
     border: 1px solid var(--hover-color);
+}
+
+.customers-icon {
+    fill: #8E8F99;
 }
 
 .customers-icon:hover,
@@ -430,9 +435,8 @@ flex-wrap: wrap;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08); 
 }
 
-.section-portfolio-link:hover,
-.section-portfolio-link:focus {
-    border: 0.5px solid #F4F4FD;
+.section-portfolio-list:hover,
+.section-portfolio-list:focus {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
